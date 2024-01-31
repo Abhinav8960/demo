@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.parent{
+    height: 100vh;
+    border: 10px solid black;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.child1{
+    width: 200px;
+    height: 200px; 
+    background-color: aqua;
+    align-self: flex-start;
+}
+
+.child2{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    align-self: center;
+}
+
+
+.child3{
+    width: 200px;
+    height: 200px;
+    background-color:  rgb(6, 101, 139);
+   
+}
+
+.child4{
+    width: 200px;
+    height: 200px;
+    background-color:  rgb(201, 24, 151);
+    
+}
